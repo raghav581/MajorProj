@@ -6,7 +6,7 @@ A simple and complete webapp where user can create blog, create profile, update 
 
 ## Home page
 
-![image](https://user-images.githubusercontent.com/73944456/161982121-d54c5b89-3f38-4daa-87e4-2c40e81b0eaf.png)
+![image](https://github.com/raghav581/MajorProj/blob/adcef1e6f3a8fb0f611ec04e0348544cf641091f/static/assets/Screenshot%20from%202022-07-06%2022-24-38.png)
 ## Register User Page
 ![image](https://user-images.githubusercontent.com/73944456/161988259-bc4cad09-6686-4e3c-b6d8-278a3e042978.png)
 ## Updating User Profile Page
