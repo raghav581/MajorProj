@@ -6,9 +6,9 @@ A simple and complete webapp where user can create blog, create profile, update 
 
 ## Home page
 
-![image](https://user-images.githubusercontent.com/73944456/161982121-d54c5b89-3f38-4daa-87e4-2c40e81b0eaf.png)
+![image](https://github.com/raghav581/MajorProj/blob/adcef1e6f3a8fb0f611ec04e0348544cf641091f/static/assets/Screenshot%20from%202022-07-06%2022-24-38.png)
 ## Register User Page
-![image](https://user-images.githubusercontent.com/73944456/161988259-bc4cad09-6686-4e3c-b6d8-278a3e042978.png)
+![image](https://github.com/raghav581/MajorProj/blob/8389c11fb4678d48750f04f3b288ff6f82da8bae/static/assets/Screenshot%20from%202022-07-06%2022-33-14.png)
 ## Updating User Profile Page
 ![image](https://user-images.githubusercontent.com/73944456/161988507-a4d12aec-ae08-4932-ab93-196f2dd8f066.png)
 
@@ -17,7 +17,7 @@ A simple and complete webapp where user can create blog, create profile, update 
 ![image](https://user-images.githubusercontent.com/73944456/161982347-c8bdecc8-cdd3-4391-8c1b-3eb69e233aee.png)
 
 ## Creating Blog Page
-![image](https://user-images.githubusercontent.com/73944456/161982649-a1794465-f279-4185-8c63-ea7f0ba70bd0.png)
+![image](https://github.com/raghav581/MajorProj/blob/c9eda32d933ab6fced49c81c285f1bbe16026dab/static/assets/Screenshot%20from%202022-07-06%2022-43-47.png)
 
 ## Custom Admin Panel
 ![image](https://user-images.githubusercontent.com/73944456/161983228-2f828360-f102-4d18-9c22-2cd01439824e.png)
