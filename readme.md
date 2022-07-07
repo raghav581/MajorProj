@@ -17,7 +17,7 @@ A simple and complete webapp where user can create blog, create profile, update 
 ![image](https://user-images.githubusercontent.com/73944456/161982347-c8bdecc8-cdd3-4391-8c1b-3eb69e233aee.png)
 
 ## Creating Blog Page
-![image](https://user-images.githubusercontent.com/73944456/161982649-a1794465-f279-4185-8c63-ea7f0ba70bd0.png)
+![image](https://github.com/raghav581/MajorProj/blob/c9eda32d933ab6fced49c81c285f1bbe16026dab/static/assets/Screenshot%20from%202022-07-06%2022-43-47.png)
 
 ## Custom Admin Panel
 ![image](https://user-images.githubusercontent.com/73944456/161983228-2f828360-f102-4d18-9c22-2cd01439824e.png)
