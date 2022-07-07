@@ -165,7 +165,7 @@
 
                                 <div
                                     class="rounded-full overflow-hidden shadow-md w-32 h-32 ml-auto mr-auto border-8 border-white">
-                                    <img src="{{user.profile_pic.url}}" alt="profile picture"
+                                    <img {%if user.profile_pic.url is defined %} src="{{user.profile_pic.url}}" {% else %} src=""{% endif %} alt="profile picture"
                                         class="w-full h-full object-cover">
                                 </div>
                                 <div class="flex -mx-3">

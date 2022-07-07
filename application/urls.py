@@ -27,7 +27,7 @@ urlpatterns = [
         "approve_post/<str:title>/", views.approve_post, name="approve_post"
     ),  # url that will be used to approve the blog
     path(
-        "decline_post/<str:title>", views.decline_post, name="decline_post"
+        "decline_post/<str:title>/", views.decline_post, name="decline_post"
     ),  # url that will be used to decline the blog
     path(
         "review_post/", views.review_post, name="review_post"

@@ -4,7 +4,7 @@
     <a href="{% url 'user_profile' user.username %}"
         class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
         <div class="rounded-full overflow-hidden shadow-md w-16 h-16 ml-auto mr-auto border-4 border-white">
-            <img class="w-full h-full object-cover" src="{{user.profile_pic.url}}" alt="">
+            <img class="w-full h-full object-cover" {%if user.profile_pic.url is defined %} src="{{user.profile_pic.url}}" {% else %} src=""{% endif %} alt="profile-pic">
         </div>
         <span class="ml-3 text-xl">{{user.username}}</span>
     </a>

@@ -144,21 +144,21 @@ def decline_post(request, title):
     if request.user.is_superuser:
 
         blog = Blog.objects.get(title=title)
-        blog.delete()
-        messages.add_message(request, messages.INFO, "Blog approved successfully")
-        author = blog.author
+        
+        # messages.add_message(request, messages.INFO, "Blog declined successfully")
+        # author = blog.author
         # get the user email from the database model
-        user = user_models.User.objects.get(username=author)
-        mail_address = user.email
-        # send mail to mail_address with the subject and message that blog have been approved
-        s = send_mail(
-            subject="Blog Declined",
-            message=f"Your blog '{title}'' has been Declined",
-            from_email=settings.EMAIL_HOST_USER,
-            recipient_list=[mail_address],
-        )
-        s.send()
-
+        # user = user_models.User.objects.get(username=author)
+        # mail_address = user.email
+        # # send mail to mail_address with the subject and message that blog have been approved
+        # s = send_mail(
+        #     subject="Blog Declined",
+        #     message=f"Your blog '{title}'' has been Declined",
+        #     from_email=settings.EMAIL_HOST_USER,
+        #     recipient_list=[mail_address],
+        # )
+        # s.send()
+        blog.delete()
         return redirect("review_post")
     else:
         messages.add_message(
