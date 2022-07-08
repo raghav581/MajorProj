@@ -41,6 +41,7 @@ urlpatterns = [
         name="update_profile_information",
     ),  # url that will be used to update the profile
     path("my_blogs/", views.myblog, name="my-blog"),
+    path("search/", views.search, name="search"),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

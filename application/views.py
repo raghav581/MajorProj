@@ -9,6 +9,10 @@ from user import models as user_models
 
 from .models import Blog, Comment as CommentModel
 
+def search(request):
+    blog_list=Blog.objects.filter(title=request.POST["search"])
+    user=request.user
+    return render(request, "home.html", context={"blog_qset": blog_list, "user": user})
 
 @login_required
 def myblog(request):
