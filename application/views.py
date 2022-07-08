@@ -4,13 +4,14 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.core.mail import send_mail
 from django.shortcuts import redirect, render, HttpResponseRedirect
-
+from django.db.models import Q
 from user import models as user_models
+
 
 from .models import Blog, Comment as CommentModel
 
 def search(request):
-    blog_list=Blog.objects.filter(title=request.POST["search"])
+    blog_list=Blog.objects.filter(Q(title__icontains=request.POST["search"])|Q(blog_content__icontains=request.POST["search"]))
     user=request.user
     return render(request, "home.html", context={"blog_qset": blog_list, "user": user})
 
