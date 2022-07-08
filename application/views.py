@@ -223,8 +223,9 @@ def update_profile_information(request):
         user = user_models.User.objects.get(username=request.user.username)
         user.username = request.POST["username"]
         try:
-            user.profile_pic = request.FILES["profile_pic"]
+            user.profile_pic = request.POST["profile_pic"]
         except:
+            print("****************************************************")
             pass
         user.save()
         messages.add_message(request, messages.INFO, "Profile updated successfully")

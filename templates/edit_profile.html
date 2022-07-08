@@ -152,7 +152,7 @@
                     </div>
 
                     <div class="w-full md:w-1/2 py-10 px-5 md:px-10">
-                        <form method="post" action="{% url 'update_profile_information' %}"
+                        <form method="POST" action="{% url 'update_profile_information' %}"
                             enctype="multipart/form-data">
                             {% csrf_token %}
                             {{ form.non_field_errors }}
@@ -178,7 +178,7 @@
                                             </div>
                                             <input type="text" name="username" id="username"
                                                 class="w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-gray-500"
-                                                placeholder="sachit">
+                                                placeholder="username">
                                         </div>
                                     </div>
                                     <div class="w-1/2 px-3 mb-5">
@@ -190,7 +190,7 @@
                                                 <i class="mdi mdi-account-outline text-gray-200 text-lg"></i>
                                                 Upload
                                             </button>
-                                            <input re accept="image/*" type="file" name="profile_pic" id="upload-btn"
+                                            <input  accept="image/*" type="file" name="profile_pic" id="upload-btn"
                                                 style="display: none;"
                                                 class="w-full -ml-10 pl-10 pr-3 py-2 hidden rounded-lg border-2 border-gray-200 outline-none focus:border-gray-500">
                                         </div>
